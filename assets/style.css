@@ -1,0 +1,35 @@
+.hero.is-fullheight{
+    background-image: url("https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    color: white;
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+.subtitle{
+    color: white;
+}
+
+.icon{
+    padding: 30px;
+    margin: auto;
+}
+
+.tile{
+    margin: auto;
+    padding: inherit;
+}
+
+a{
+    color: white;
+}
+.column.is-one-third{
+    margin-bottom: 150px;
+}
