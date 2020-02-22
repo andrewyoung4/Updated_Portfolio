@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 .hero.is-fullheight{
     background-image: url("https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
@@ -22,32 +25,27 @@ body{
     text-align: center;
 }
 
-.tile{
-    margin: auto;
-    padding: inherit;
-}
-
 a{
     color: white;
-}
-.column.is-one-fourth{
-    vertical-align: middle;
     text-align: center;
-    margin-bottom: 150px;
 }
 
-.card.large{
-    z-index: 1;
-    text-align: center;
+#img {
+    float: left;
+    width: 440px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.tile.is-child{
     background-color: rgba(255, 255, 255, 0);
 }
 
-.card-content{
-    z-index: 2;
-    text-align: center;
-}
-
-.image{
-    width: auto;
-    height: auto;
-}
